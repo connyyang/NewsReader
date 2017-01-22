@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 
 
 class PublisherCollectionViewController: UICollectionViewController {
@@ -64,6 +65,17 @@ class PublisherCollectionViewController: UICollectionViewController {
         headerView.publisher = publisher!
         
         return headerView
+        
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let publisher = publishers.publisherForItem(atIndexPath: indexPath)
+        
+        if let url = publisher?.url
+        {
+            let sarafiVC = SFSafariViewController(url: URL(string: url)!)
+            self.present(sarafiVC, animated: true, completion: nil)
+        }
         
     }
 
