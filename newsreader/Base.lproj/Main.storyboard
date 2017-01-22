@@ -76,7 +76,7 @@
                                 </connections>
                             </collectionViewCell>
                         </cells>
-                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Xv8-tn-zk0">
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Header Cell" id="Xv8-tn-zk0" customClass="HeaderCollectionReusableView" customModule="NewsReader" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
@@ -88,6 +88,9 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
+                            <connections>
+                                <outlet property="titleLabel" destination="i9I-1C-d2H" id="MP2-7R-Yjo"/>
+                            </connections>
                         </collectionReusableView>
                         <connections>
                             <outlet property="dataSource" destination="Mle-tz-mCv" id="V74-Rb-3GS"/>

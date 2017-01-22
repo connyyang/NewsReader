@@ -15,6 +15,7 @@
 		523F985D1D763D54008EB1AB /* Publishers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F985B1D763D54008EB1AB /* Publishers.swift */; };
 		AEB03F141E346688000058F1 /* PublisherCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB03F131E346688000058F1 /* PublisherCollectionViewController.swift */; };
 		AEB03F161E346C6D000058F1 /* PublisherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB03F151E346C6D000058F1 /* PublisherCollectionViewCell.swift */; };
+		AEB03F181E34CC30000058F1 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB03F171E34CC30000058F1 /* HeaderCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		523F985B1D763D54008EB1AB /* Publishers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Publishers.swift; sourceTree = "<group>"; };
 		AEB03F131E346688000058F1 /* PublisherCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PublisherCollectionViewController.swift; path = newsreader/PublisherCollectionViewController.swift; sourceTree = SOURCE_ROOT; };
 		AEB03F151E346C6D000058F1 /* PublisherCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PublisherCollectionViewCell.swift; path = newsreader/PublisherCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		AEB03F171E34CC30000058F1 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeaderCollectionReusableView.swift; path = newsreader/HeaderCollectionReusableView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				523F98481D763D4B008EB1AB /* AppDelegate.swift */,
 				523F984C1D763D4B008EB1AB /* Main.storyboard */,
+				AEB03F171E34CC30000058F1 /* HeaderCollectionReusableView.swift */,
 				AEB03F151E346C6D000058F1 /* PublisherCollectionViewCell.swift */,
 				AEB03F131E346688000058F1 /* PublisherCollectionViewController.swift */,
 				523F985E1D7640D6008EB1AB /* Model */,
@@ -159,6 +162,7 @@
 				523F985C1D763D54008EB1AB /* Publisher.swift in Sources */,
 				523F98491D763D4B008EB1AB /* AppDelegate.swift in Sources */,
 				AEB03F141E346688000058F1 /* PublisherCollectionViewController.swift in Sources */,
+				AEB03F181E34CC30000058F1 /* HeaderCollectionReusableView.swift in Sources */,
 				AEB03F161E346C6D000058F1 /* PublisherCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
